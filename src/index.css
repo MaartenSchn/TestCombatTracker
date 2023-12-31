@@ -1,0 +1,33 @@
+.sortButton{
+    display: flex;
+    justify-content:space-between;
+    gap: 3px;
+    align-items: center;
+    padding: 3px;
+}
+.button-group{
+    display: flex;
+    gap: 20px;
+}
+
+
+.dropdown {
+    position: flex;
+    display: inline-block;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5f4c4c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
